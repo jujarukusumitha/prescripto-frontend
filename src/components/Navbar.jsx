@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { assets } from "../assets/assets";
 import { NavLink, useNavigate } from 'react-router-dom'
-import { hover } from '@testing-library/user-event/dist/cjs/convenience/hover.js';
+import { hover } from "@testing-library/user-event"
 function Navbar() {
   const navigate=useNavigate()
 
